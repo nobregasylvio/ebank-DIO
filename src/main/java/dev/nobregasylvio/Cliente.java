@@ -1,8 +1,10 @@
 package dev.nobregasylvio;
 
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-@Data
+@AllArgsConstructor
+@Getter
 public class Cliente {
     private String nome;
 }
